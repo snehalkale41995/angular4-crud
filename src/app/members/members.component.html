@@ -1,0 +1,48 @@
+<p>
+  
+  members works!
+</p>
+<div>{{value}}</div>
+
+
+<div style="padding:5px">
+  <ul class="nav nav-tabs">
+    <!--<li> <a [routerLink]="['memberslist']">Members List</a> </li>-->
+        <!-- <li> <a routerLink="memberslist">Members List</a> </li> -->
+  
+
+    </ul>
+    </div>
+
+<router-outlet name="aux"></router-outlet>
+
+<div>
+  </div>
+
+<router-outlet name="aux2"></router-outlet>
+
+<div>
+
+   <!--<label for="uId">UserId</label>
+    <input type="text" id="uId" name="UserId" placeholder="UserId">-->
+
+    <label for="uname">UserName</label>
+    <input type="text" id="uname" name="username" placeholder="UserName">
+
+    <label for="AId"> Activity Id</label>
+    <input type="text" id="AId" name="ActivityId" placeholder="Activity Id">
+
+     <label for="AName"> Activity Name</label>
+    <input type="text" id="AName" name="ActivityName" placeholder="Activity Name">
+
+    <label for="usertype">User Type</label>
+    <select id="usertype" name="usertype">
+      <option value="member">Member</option>
+      <option value="trainer">Trainer</option>
+      <option value="volunteer">Volunteer</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+
+</div>
+

@@ -1,0 +1,33 @@
+<div style="text-align:center">
+  <h1>
+   HEllo EveryOne
+  </h1> 
+</div>
+
+
+ <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	<h1><a href="http://designvkp.com/create-responsive-forms-using-html-css/" rel="dofollow" target="_blank"></a></h1> 
+      <form >    
+       <table>
+         <tr>
+         <th> Activity Id </th>
+         <th> Activity Name </th>
+         <th> Activity Date  </th>
+         <th> Activity Time  </th>
+         <th> Activity Venue </th>
+         <th> Activity Volunteer Count </th>
+         <th> Activity Creater User Id  </th>
+         </tr>  
+        <tr *ngFor="let act of activity" >
+          <td>{{act.ActivityId}}</td>
+          <td>{{act.ActivityName}}</td>
+        </tr>        
+       </table>
+      </form>
+      <!-- "ActivityId" :"7",
+		"ActivityName":"GoKarma",
+		"ActivityDate":"05/12/2016",
+		"ActivityTime":"10:30",
+		"ActivityVenue":"Nasik",
+		"VolunteerNumber":"25",
+		"UserId":"06"  -->

@@ -1,0 +1,51 @@
+[
+   {
+    "id" : 1,  
+    "title" :"Evidyaloka Class", 
+    "videoUrl" : "https://www.youtube.com/embed/nDc78dy6FGw", 
+    "description" : "One of the on going classes in the Thenur village by an eVidyaloka teacher"
+  },
+   
+  {
+    "id" : 2,  
+    "title" :"Helping Hands - A brief on our activities " , 
+    "videoUrl" : "https://www.youtube.com/embed/kYO4e2SjNgk", 
+    "description" : "Give your Little Contribution for our Leading Life Society Studen Alone we can do so little, together we can do so much."
+  },
+
+  {
+    "id" : 3,  
+    "title" :"RunningGroups" , 
+    "videoUrl" : "https://www.youtube.com/embed/rXN6958-Bow", 
+    "description" : "RunningGroups supporters, volunteers and activists take to the road in the Standard Chartered Mumbai                        Marathon in January 2015 to raise awareness on child rights."
+  },
+
+ {
+    "id" : 4,  
+    "title" :"CutCancer" , 
+    "videoUrl" : "https://www.youtube.com/embed/3iUT_3bPGNg", 
+    "description" : "This is a short film encompassing the activities/events organised by CutCancer foundation, which                            tied up with Hill Spring International School. "
+  },
+  
+  {
+    "id" : 5,  
+    "title" :"GiveSmile " , 
+    "videoUrl" : "https://www.youtube.com/embed/rCh0izdHjYo", 
+    "description" : "Givesmile is  working towards education and healthcare for underprivileged children."
+  },
+    
+  {
+    "id" : 6,  
+    "title" :"CleanCity" , 
+    "videoUrl" : "https://www.youtube.com/embed/g52EMkO51Dc", 
+    "description" : "Givesmile is  working towards education and healthcare for underprivileged children."
+  },
+   
+  {
+    "id" : 7,  
+    "title" : "FitnessAwareness", 
+    "videoUrl" : "https://www.youtube.com/embed/g52EMkO51Dc", 
+    "description" : "Givesmile is  working towards education and healthcare for underprivileged children."
+  }
+
+]

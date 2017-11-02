@@ -1,0 +1,85 @@
+ <!-- <h3> gallery form </h3>
+<div class="container">
+<form #videoform="ngForm" (ngSubmit) = "addnew(videoform.value)">
+<div class="form-group">
+<label> Title  : </label>
+<input type="text" class="form-control" name="title" ng-model>
+</div>
+
+<div class="form-group">
+<label> Description :</label>
+<input type="text" class="form-control" name="description" ng-model>
+</div>
+
+<div class="form-group">
+<label> Video Url :</label>
+<input type="text" class="form-control" name="videourl" ng-model>
+</div>
+
+<button type="submit" class="btn btn-primary"> submit </button>
+
+</form>
+
+</div>  -->
+
+  <!-- Add New Product
+</h2>
+
+<form id = "formNewProduct" name = "formNewProduct" #videoData = "ngForm" (ngSubmit) = "addnew(videoData.value)">
+  
+  
+  <label>TITLE : </label><input type = "text" name="title" id="title" placeholder="title" ngModel><br>
+  <label>DESCRIPTION: </label><input type = "text" name="year" id="year" placeholder="description" ngModel><br>
+  <label>VIDEO URL : </label><input type = "text" name="favorite" id="favorite" placeholder="video url" ngModel><br>
+  <input type="submit" value = "Add data">
+</form> -->
+
+ 
+<!-- <h1> video list </h1>
+<ul *ngFor="let video of videos">
+ <li> {{video.title}}  </li>
+</ul> -->
+
+ 
+
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+<a routerLink = '/addnew'> + Add Product</a>
+
+ <table class="table table-hover">
+    <thead>
+        <tr>
+            <th>id</th>
+            <th>title</th>
+            <th>description</th>
+            <th>video</th> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let video of videoobject">
+             <th>{{video.id}}</th>
+            <td>{{video.title}}</td>
+            <td>{{video.year}}</td> 
+            <iframe [src]="video.favorite | safe" >
+            </iframe> 
+            <td (click) = "deletevideo(video.id)"><a>DELETE</a></td>
+            <td [routerLink] = "['/updateProduct', video.id]"><a>UPDATE</a></td>
+            </tr>
+    </tbody>
+</table> 

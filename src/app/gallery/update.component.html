@@ -1,0 +1,29 @@
+
+<a routerLink = "/"> < back </a>
+
+<h2 align="center">
+  Update Product
+</h2>
+
+<!-- <p *ngIf = "!exist">
+  Product doesn't exist
+</p> -->
+<div class="container">
+<form id = "formNewProduct" name = "formNewProduct" #videoData = "ngForm"  (ngSubmit) = "updateProduct(videoData.value)">
+  
+  <div class="form-group">
+  <label>Title: </label>
+  <input type = "text" name="title" id="title" placeholder="title" class="form-control" [(ngModel)] = "data.title" ngModel><br>
+  </div>
+
+  <div class="form-group">
+  <label>description: </label><input type = "text" name="year" id="year" [(ngModel)] = "data.year" class="form-control" placeholder="description" ngModel><br>
+  </div>
+ 
+  <div class="form-group">
+  <label>videourl: </label><input type = "text" name="favorite" id="favorite" [(ngModel)] = "data.favorite" class="form-control" placeholder="videourl" ngModel><br>
+  </div>
+
+  <input type="submit" class="btn btn-primary" value = "Update Product">
+</form>
+</div>
